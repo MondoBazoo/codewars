@@ -6,6 +6,14 @@
 //setAlarm(false, false) -> false
 //setAlarm(true, false) -> true
 
+// My solution
+function setAlarm(employed, vacation){
+  if(employed && !vacation){
+    return true;
+  }else{
+    return false;
+  } 
+}
 //Top 3 solutions:
 //1
 const setAlarm = (employed, vacation) => employed && !vacation;
