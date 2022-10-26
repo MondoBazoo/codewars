@@ -10,6 +10,8 @@ Testing: [0, 1, 1, 0] ==> 6
 Testing: [1, 1, 1, 1] ==> 15
 Testing: [1, 0, 1, 1] ==> 11*/
 
+//My solution
+
 //Top 3 solutions
 //1
 const binaryArrayToNumber = arr => parseInt(arr.join(''), 2);
