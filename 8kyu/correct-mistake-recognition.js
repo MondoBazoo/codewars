@@ -8,6 +8,11 @@ S is misinterpreted as 5
 O is misinterpreted as 0
 I is misinterpreted as 1*/
 
+//My solution
+function correct(string){
+  return string.replace(/5/g,'S').replace(/0/g,'O').replace(/1/g,'I');
+}
+
 //Top 3 solutions
 //1
 correct = s => s.replace(/0/g,'O').replace(/1/g,'I').replace(/5/g,'S')
