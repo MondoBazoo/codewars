@@ -4,6 +4,8 @@
 
 //If you can, try writing it in only one line of code.
 
+//My solution
+
 //Top 3 solutions
 //1
 function findMultiples(int,limit){
