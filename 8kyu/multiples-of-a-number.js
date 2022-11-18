@@ -5,6 +5,11 @@
 //If you can, try writing it in only one line of code.
 
 //My solution
+function findMultiples(int,limit){
+  let multiples = [];
+  for(let i = int; i <= limit; i += int){ multiples.push(i); }
+  return multiples;
+}
 
 //Top 3 solutions
 //1
