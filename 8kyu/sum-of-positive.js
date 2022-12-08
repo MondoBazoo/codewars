@@ -13,6 +13,7 @@
     return total;                         // return total
   }
 
+
 //Top 3 solutions
 //1
 function positiveSum(arr) {
