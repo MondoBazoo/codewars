@@ -2,6 +2,14 @@
 
 //You only need to worry about english grammar rules for this kata, where anything that isn't singular (one of something), it is plural (not one of something).
 
+//My solution
+function plural(n) {
+  if(n===1){
+    return false;
+  }else{
+    return true;
+  }
+}
 //Top 3 solutions
 //1
 function plural(n) {
