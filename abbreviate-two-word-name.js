@@ -8,6 +8,12 @@
 
 //patrick feeney => P.F
 
+//My solution
+function abbrevName(name){
+    return name.split(' ')[0][0].toUpperCase() + "." + name.split(' ')[1][0].toUpperCase();
+  
+  }
+
 //Top 3 solutions
 //1
 function abbrevName(name){
