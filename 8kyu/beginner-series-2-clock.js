@@ -14,6 +14,11 @@
 //0 <= m <= 59
 //0 <= s <= 59
 
+//My solution
+function past(h, m, s){
+  return ((h*3600)+(m*60)+s)*1000;
+}
+
 //Top 3 solutions 
 //1
 function past(h, m, s){
