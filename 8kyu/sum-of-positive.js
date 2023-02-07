@@ -3,7 +3,7 @@
 //Note: if there is nothing to sum, the sum is default to 0.
 
 //My solution
-/*function positiveSum(arr) {
+function positiveSum(arr) {
     var total = 0;    
     for (i = 0; i < arr.length; i++) {    // setup loop to go through array of given length
       if (arr[i] > 0) {                   // if arr[i] is greater than zero
