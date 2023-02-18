@@ -17,15 +17,15 @@ Examples:(Input --> Output)
 
 //My solution
 function SeriesSum(n){
-    let sum = 0;
-    let denominator = 1;
-    
-    for(let i = 1; i <=n; i++){
-      sum += 1 / denominator;
-      denominator += 3;
-    }
-    return sum.toFixed(2);
+  let sum = 0;
+  let denominator = 1;
+  
+  for(let i = 1; i <=n; i++){
+    sum += 1 / denominator;
+    denominator += 3;
   }
+  return sum.toFixed(2);
+}
 //Top 3 solutions
 //1
 function SeriesSum(n) {
