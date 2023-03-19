@@ -4,6 +4,10 @@
 
 //"Dermatoglyphics" --> true "aba" --> false "moOse" --> false (ignore letter case)
 
+//My solution
+function isIsogram(str){
+  return new Set(str.toUpperCase()).size == str.length;
+}
 //Top 3 solutions
 //1
 function isIsogram(str){
