@@ -9,6 +9,10 @@ i.e.
 friend ["Ryan", "Kieran", "Mark"] `shouldBe` ["Ryan", "Mark"]
 Note: keep the original order of the names in the output.*/
 
+//My solution
+function friend(friends){
+  return friends.filter(n => n.length === 4)
+}
 //Top 3 solutions
 //1
 function friend(friends){
