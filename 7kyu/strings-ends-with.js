@@ -3,6 +3,10 @@
 //solution('abc', 'bc') // returns true
 //solution('abc', 'd') // returns false
 
+//My solution
+function solution(str, ending){
+  return str.endsWith(ending);
+}
 //Top 3 solutions
 //1
 function solution(str, ending){
