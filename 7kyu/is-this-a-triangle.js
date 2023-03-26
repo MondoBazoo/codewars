@@ -2,6 +2,8 @@
 
 //(In this case, all triangles must have surface greater than 0 to be accepted).
 
+//My solution
+var isTriangle = (a,b,c) => Math.max(a,b,c)<(a+b+c)/2
 //Top 3 solutions
 //1
 function isTriangle(a,b,c)
