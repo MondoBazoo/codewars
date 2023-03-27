@@ -6,6 +6,8 @@ For example: (Input --> Output)
 99 --> 18
 -32 --> 5 */
 
+//My solution
+sumDigits = n => Math.abs(n).toString().split('').reduce((s, e) => s + +e, 0);
 //Top 3 solutions
 //1
 function sumDigits(number) {
