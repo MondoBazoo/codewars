@@ -5,7 +5,14 @@ For example:
 a = 1
 b = 4
 --> [1, 2, 3, 4] */
-
+//My solution
+function between(a, b) {
+  // your code here
+  arr = []
+  for(i = a;i <= b; i++){ 
+      arr.push(i)
+  return  arr
+}
 //Top 3 solutions
 //1
 function between(a, b) {
