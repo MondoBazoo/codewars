@@ -8,9 +8,8 @@
 //'A'
 
 //My solution
-function getChar(c) {
-  return String.fromCharCode(c)
-}
+var getChar = c => String.fromCharCode(c);
+
 
 //Top 3 solutions
 //1
