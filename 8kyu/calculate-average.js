@@ -2,6 +2,9 @@
 
 //Note: Empty arrays should return 0.
 
+//My solution
+function find_average(arr) {
+  return arr.length > 0? arr.reduce((a, b) => a + b) / arr.length : 0;
 //Top 3 solution
 //1
 var find_average = (array) => {  
