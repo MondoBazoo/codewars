@@ -13,7 +13,12 @@
 //15 dog years for first year
 //+9 dog years for second year
 //+5 dog years for each year after that
-
+//My solution
+var humanYearsCatYearsDogYears = function(y) {
+  if (y == 1) return [1, 15, 15]
+  if (y == 2) return [2, 24, 24]
+  return [y, (y-2) * 4 + 24, (y-2) * 5 + 24]
+}
 //Top 3 solutions 
 //1
 var humanYearsCatYearsDogYears = function(y) {
