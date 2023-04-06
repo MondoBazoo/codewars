@@ -13,6 +13,9 @@
 //15 dog years for first year
 //+9 dog years for second year
 //+5 dog years for each year after that
+//
+//
+//
 //My solution
 var humanYearsCatYearsDogYears = function(y) {
   if (y == 1) return [1, 15, 15]
