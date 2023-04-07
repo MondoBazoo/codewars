@@ -8,12 +8,12 @@
 
 //My solution
 const areaOrPerimeter = function(l , w) {
-    if(l === w){
-      return l * w;
-    }else{
-      return (2 * (l + w));
-    }
-  };
+  let area = l * w;
+  let perimeter = (l + w) * 2;
+  
+  return l === w ? area : perimeter;
+};
+
 //Top 3 solutions 
 
 //1
