@@ -12,6 +12,8 @@ Example
 "aA11" -> 2  # 'a' and '1'
 "ABBA" -> 2  # 'A' and 'B' each occur twice*/
 
+
+
 //My solution
 function duplicateCount(text){
   return text.toLowerCase().split('').filter(function(val, i, arr){
@@ -43,4 +45,9 @@ function duplicateCount(text){
     });
     
     return count;
+  }
+
+  //4
+  function duplicateCount(text){
+    return (text.toLowerCase().split('').sort().join('').match(/([^])\1+/g) || []).length;
   }
