@@ -7,6 +7,11 @@ Let's look at a few examples:
 array = [1, 2, 3, 4] and N = 2, then the result is 3^2 == 9;
 array = [1, 2, 3] and N = 3, but N is outside of the array, so the result is -1.*/
 
+//My solution
+function index(array, n){
+  //your code here
+  return array[n] ** n || -1;
+}
 //Top 3 solutions
 //1
 const index = (array, n) => array.length > n ? Math.pow(array[n], n) : -1;
