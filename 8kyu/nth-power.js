@@ -23,3 +23,5 @@ function index(array, n){
 //3
 const index = (array, n) => array[n] ** n || -1; 
 
+//4
+const index = (array, n) => array[n] ** n || -1; 
