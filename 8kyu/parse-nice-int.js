@@ -4,7 +4,7 @@
 
 //My solution
 function getAge(inputString){
-  return parseInt(inputString);
+  return parseInt(inputString[0]); 
 }
 //Top 3 solutions
 //1
