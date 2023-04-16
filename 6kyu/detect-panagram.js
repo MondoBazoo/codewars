@@ -2,7 +2,10 @@
 
 //Given a string, detect whether or not it is a pangram. Return True if it is, False if not. Ignore numbers and punctuation.
 
-
+//My solution
+function isPangram(string){
+  return (string.match(/([a-z])(?!.*\1)/ig) || []).length === 26;
+}
 //Top 3 solutions
 //1
 function isPangram(string){
