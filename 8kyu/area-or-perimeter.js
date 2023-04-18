@@ -14,6 +14,7 @@ const areaOrPerimeter = function(l , w) {
   return l === w ? area : perimeter;
 };
 
+
 //Top 3 solutions 
 
 //1
