@@ -3,7 +3,13 @@
 
 
 //My solution
-
+function squareSum(numbers){
+  var sum = 0;
+  numbers.forEach(function(n) {
+    sum += n * n
+  });
+  return sum;
+}
 //Top 3 solutions
 //1
 function squareSum(numbers){
