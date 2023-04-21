@@ -29,3 +29,4 @@ function squareSum(numbers){
     });
     return sum;
   }
+  //4
