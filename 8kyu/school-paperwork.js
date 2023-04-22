@@ -15,7 +15,10 @@ function paperwork(n, m) {
       return n * m;
     }
   }
-  
+  //My solution
+  function paperwork(n, m) {
+    return n > 0 && m > 0 ? n * m : 0
+  }
 //Top 3 solutions
 //1
 function paperwork(n, m) {
