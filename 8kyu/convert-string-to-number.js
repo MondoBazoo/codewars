@@ -9,7 +9,7 @@
 //My Solution
 const stringToNumber = function(str){
     return Number(str);
-  }
+  }]
 
 //Top 3 solutions
 //1
