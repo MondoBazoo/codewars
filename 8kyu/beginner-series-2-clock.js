@@ -15,7 +15,7 @@
 //0 <= s <= 59
 
 //My solution
-unction past(h, m, s){
+function past(h, m, s){
   return ((h*3600)+(m*60)+s)*1000;
 }
 //Top 3 solutions 
