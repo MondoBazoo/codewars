@@ -33,3 +33,6 @@ function past(h, m, s){
     miliseconds = miliseconds + h * 3600000;
     return miliseconds;
   }
+  function past(h, m, s){
+    return ((h*3600)+(m*60)+s)*1000;
+  }
