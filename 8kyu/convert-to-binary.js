@@ -11,6 +11,10 @@ toBinary(1)  /* should return 1
 toBinary(5)  /* should return 101 
 toBinary(11) /* should return 1011 */ 
 
+//My solution
+function toBinary(n){
+  return +n.toString(2);
+}
 //Top 3 solutions
 //1
 let toBinary = n => +n.toString(2)
