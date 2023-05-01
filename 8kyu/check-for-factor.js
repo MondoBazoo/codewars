@@ -29,3 +29,7 @@ function checkForFactor (base, factor) {
   }
 //3
 const checkForFactor = (base, factor) => base % factor === 0;
+//4
+function checkForFactor (base, factor) {
+  return base % factor === 0 ? true : false;
+}
