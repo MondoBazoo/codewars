@@ -4,6 +4,9 @@
 
 //https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice
 
+
+//My solution
+let take = (arr, n) => arr.slice(0, n);
 //Top 3 solutions
 //1
 function take(arr, n) {
