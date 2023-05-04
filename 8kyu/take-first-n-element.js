@@ -16,3 +16,4 @@ function take(arr, n) {
 let take = (arr, n) => arr.slice(0, n);
 //3
 const take = (a, n) => a.slice(0, n);
+//
