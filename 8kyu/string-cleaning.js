@@ -22,3 +22,7 @@ function stringClean(s){
   }
 //3
 const stringClean = s => s.replace( /\d/g, "" ) ;
+//4
+function stringClean(s){
+  return s.replace(/\d/g, "");
+}
