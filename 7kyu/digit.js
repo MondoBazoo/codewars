@@ -28,3 +28,7 @@ function squareDigits(num){
     
     return parseInt(array.join(""));
   }
+//4
+function squareDigits(num){
+  return +num.toString().split('').map(i => i*i).join('');
+}
