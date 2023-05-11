@@ -33,3 +33,5 @@ function squareDigits(num){
   return +num.toString().split('').map(i => i*i).join('');
 }
 //5
+function squareDigits(num){
+  return +num.toString().split('').map(i => i*i).join('');
