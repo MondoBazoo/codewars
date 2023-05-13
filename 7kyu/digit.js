@@ -36,3 +36,9 @@ function squareDigits(num){
 function squareDigits(num){
   return +num.toString().split('').map(i => i*i).join('');
 //4
+function squareDigits(num){
+  var array = num.toString().split('').map( function(int) {
+    var i = parseInt(int);
+    return i * i;
+  });
+  
