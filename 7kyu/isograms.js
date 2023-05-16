@@ -29,3 +29,7 @@ function isIsogram(str){
           return false;
     return true;
   }
+  //4
+  function isIsogram(str){ 
+    return !/(\w).*\1/i.test(str)
+  }
