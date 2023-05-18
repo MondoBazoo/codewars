@@ -5,6 +5,8 @@
 //sayHello(['John', 'Smith'], 'Phoenix', 'Arizona')
 //This example will return the string Hello, John Smith! Welcome to Phoenix, Arizona!
 
+//My solution
+
 //Top 3 solutions
 //1
 function sayHello( name, city, state ) {
@@ -16,3 +18,7 @@ function sayHello( name, city, state ) {
   }
 //3
 const sayHello = ( name, city, state ) => `Hello, ${name.join(' ')}! Welcome to ${city}, ${state}!`
+//4
+var sayHello = (n, c, s) => `Hello, ${n.join(' ')}! Welcome to ${c}, ${s}!`;
+
+    
