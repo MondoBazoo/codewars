@@ -20,5 +20,8 @@ function sayHello( name, city, state ) {
 const sayHello = ( name, city, state ) => `Hello, ${name.join(' ')}! Welcome to ${city}, ${state}!`
 //4
 var sayHello = (n, c, s) => `Hello, ${n.join(' ')}! Welcome to ${c}, ${s}!`;
+//5
+/say hello
+var sayHello = ( name, city, state ) => `Hello, ${name.join(" ")}! Welcome to ${city}, ${state}!`
 
     
