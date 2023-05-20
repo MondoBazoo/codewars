@@ -6,6 +6,7 @@
 //This example will return the string Hello, John Smith! Welcome to Phoenix, Arizona!
 
 //My solution
+var sayHello = ( name, city, state ) => `Hello, ${name.join(" ")}! Welcome to ${city}, ${state}!`
 
 //Top 3 solutions
 //1
