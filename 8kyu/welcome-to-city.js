@@ -23,6 +23,6 @@ const sayHello = ( name, city, state ) => `Hello, ${name.join(' ')}! Welcome to 
 var sayHello = (n, c, s) => `Hello, ${n.join(' ')}! Welcome to ${c}, ${s}!`;
 //5
 /say hello
-var sayHello = ( name, city, state ) => `Hello, ${name.join(" ")}! Welcome to ${city}, ${state}!`
-
-    
+c
+//
+//
