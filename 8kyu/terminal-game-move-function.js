@@ -23,3 +23,7 @@ function move (position, roll) {
 const move = (p, r) => p + r * 2;
 //4
 const move = (position, roll) => position + roll * 2
+//5
+function move (position, roll) {
+  return position + roll*2;
+}
