@@ -28,5 +28,4 @@ function move (position, roll) {
   return position + roll*2;
 }
 //6
-onst move = (position, roll) => position + roll * 2
-//2
+const moving = (position, roll) => position + roll * 2
