@@ -24,3 +24,7 @@ function shortcut(str) {
       return ['a', 'e', 'i', 'o', 'u'].indexOf(e) == -1 
     }).join('')
   }
+//4
+function shortcut(string){
+  return string.replace(/[aeiou]/gi, '');
+}
