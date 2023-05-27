@@ -32,3 +32,7 @@ function shortcut(string){
 function shortcut(string){
   return string.replace(/[aeiou]/gi, '');
 }
+//6
+
+function shortt(string){
+  return string.replace(/[aeiou]/gi, '');
